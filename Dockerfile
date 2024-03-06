@@ -17,6 +17,7 @@ RUN apt-get update && apt-get -yq install \
     python3-pankoclient \
     python3-swiftclient \
     python3-keystoneclient \
+    python3-ironicclient \
     zip \
   && rm -rf /var/lib/apt/lists/*
 

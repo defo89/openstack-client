@@ -7,4 +7,4 @@ VERSION  ?= v$(DATE)
 all: build
 
 build:
-	docker buildx build --platform linux/amd64,linux/arm64/v8 . -t $(IMAGE):$(VERSION) --push
+	docker buildx build --platform linux/arm64/v8 . -t $(IMAGE):$(VERSION) --push
